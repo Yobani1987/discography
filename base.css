@@ -1,0 +1,87 @@
+
+
+body {
+    background: url(../images/noise.png);
+    color: #f0fcfc;
+    text-align: center;
+    width: 98%;
+    
+}
+ 
+header {
+    color: #70bdf3;
+    font-size: 6em;
+    margin-left: 2.5%;
+}
+iframe {
+    
+    border: none;
+    height: 800px;
+    margin-bottom: 5%;
+    width: 800px;
+}
+.nav {
+    font-size: 2em;
+    list-style-type: none;
+    text-align: left;
+  
+}
+
+a {
+     color: #c13673;
+    font: 4em;
+
+}
+a:visited {
+    color: #41a154;
+    
+}
+a:hover {
+    color: #2e87c1;
+}
+a:active {
+    color: #f7ce6f;
+}
+img {
+    border-radius: 10px 20px;
+    }
+
+li {
+    text-align: left;
+}
+#bandpicture {
+    background: url("../images/900x600_pentatonix.jpg") no-repeat;/*pentatonix first band picture*/
+    background-size: cover;
+   border-radius: 20px 30px;
+    color: transparent;
+    height: 367px;
+   margin-left: 40%;
+    width: 550px;
+}
+
+
+
+#bandpicture:hover {
+    background: url("../images/900x600_pentatonix_blackove.png") no-repeat;
+    background-size: cover;
+   border-radius: 20px 10px;
+    color: #f0fcfc;
+     height: 333px;
+    padding: 1%;
+    width: 500px;
+}
+
+#bio  {
+    background: url(../images/fullgroup.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 20px 10px;
+    height: 364px;
+    margin: 1% 0 0 40%;
+    width: 550px;
+}
+
+.col1 img, .col2 img, .col3 img, .col4 img{
+    height: 250px;
+    width: 250px;
+}
+
