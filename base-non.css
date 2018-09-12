@@ -1,0 +1,739 @@
+a{text-decoration:none;}
+a:visited{color:black;}
+ul li{list-style:none;}
+html{color:#000;font-family:'Droid Sans', sans-serif}
+body{background-image:url(../images/largewhite.JPG);}
+html{}
+#about,
+#albums,
+#banner,
+#bio,
+.address,
+.birthday,
+.blackbackground,
+.blackbackgroundupdate,
+.city,
+.comments,
+.css,
+.email,
+.emailpref,
+.firstname,
+.footer,
+.html,
+.lastname,
+.readandagree,
+.state,
+.terms,
+.zip,
+footer,
+.navig{border-radius:10% 15%}
+button{}
+header{text-align:center;}
+.navig{margin:2% 0 2% 5%;width:90%;}
+li.navi{display:inline;font-size:4em;padding:5%;width:90%;}
+#about,
+#albums,
+#bio,
+#updatesignup{color:#000;text-align:center}
+#bandpicture{display:none;}
+#about-paragraph{border-radius:10% 15%;font:1.4em;height:500px;margin:0 0 0 0%;width:1600px;}
+a,
+a:active{}
+.agreement,
+button,
+img.banner{display:block}
+a:hover,
+button{}
+.agreement,
+.terms,
+footer{text-align:center}
+.about{padding:2% 2.5%}
+a{font:4em}
+img.banner{height:191px;margin:auto;width:1100px}
+#banner{width:100%}
+form{font-family:'Droid Serif', serif}
+button{margin:auto;width:8%}
+.blackbackgroundupdate{color:black;text-align:center;padding:1% 0;width:100%}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{color:#000}
+.firstname,
+.lastname{width:12%}
+#address,
+#birthday,
+#city,
+#comments,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{font-size:1.5em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+#comments{padding:.5% 0 2%}
+.birthday{width:13%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:8%}
+.emailpref{width:22%}
+.css,
+.html{font:1.6em}
+.address{width:15%}
+.city{width:5%}
+.state{width:6%}
+.zip{width:10%}
+.comments{width:28%}
+.terms{margin:0 0 2%}
+.agreement{margin-bottom:2%}
+select{color:#000;}
+input[type=radio]{margin:1% 0}
+img.album{height:450px;width:450px}
+img.bandmembers{height:325px;width:325px}
+.container{position:relative;width:450px}
+.containerbio{position:relative;width:325px}
+.overlay,
+.overlay-bios,
+.tracks{font-weight:900;overflow:hidden;position:absolute}
+.overlay,
+.overlay-bios{background-color:rgba(76, 72, 73, .9);bottom:0;color:#000;height:0;left:0;right:0;transition:1s ease;width:100%}
+.container:hover .overlay,
+.containerbio:hover .overlay-bios{height:100%}
+.tracks{font-size:1.6em;padding:0 1% 0 2%}
+.bios{margin:0 4% 0 0;padding:4%}
+.toolong{font-size:1em;padding:0 0 3%}
+footer{color:#000;font-size:1em;margin:2% 0 1%;padding:.5%}
+.form2,
+.smallerscreen,
+.smallerscreen2,
+.smallerscreen3,
+.smallest,
+.tracks2,
+.tracks3,
+.medium{display:none}
+@media only screen and (min-width:1800px) and (max-width:2150px){#bandpicturesmaller,
+.about-paragraphsmaller,
+.containersmaller{height:600px;width:900px}
+#bandpicturesmaller,
+.overlaysmaller{border-radius:5% 10%}
+.agreement,
+.terms,
+nav{text-align:center}
+.largescreen,
+.smallerscreen2,
+.smallerscreen3,
+.smallest{display:none}
+.smallerscreen{display:inherit}
+.containersmaller{position:relative}
+img.album{height:400px;width:400px}
+img.bandmembers{height:300px;width:300px}
+.container{position:relative;width:400px}
+.containerbio{position:relative;width:300px}
+.overlaysmaller{background-color:rgba(76, 72, 73, .9);bottom:0;color:#000;font-size:1.1em;font-weight:900;height:0;left:0;overflow:hidden;padding:0;position:absolute;right:0;transition:2s ease;width:900px}
+.containersmaller:hover .overlaysmaller{height:600px;width:900px}
+nav{display:inline;margin:0 3% 0 0;width:14%}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address,
+#birthday,
+#city,
+#comments,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{font-size:1.5em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+.firstname,
+.lastname{width:16%}
+#comments{padding:.5% 0 2%}
+.birthday{width:15%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:10%}
+.emailpref{width:25%}
+.css,
+.html{font:1.6em}
+.address{width:18%}
+.city,
+.state{width:8%}
+.zip{width:12%}
+.comments{width:38%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
+@media only screen and (min-width:1510px) and (max-width:1799px){.agreement,
+.terms,
+nav{text-align:center}
+.smallerscreen,
+.smallerscreen3,
+.smallest .container:hover .overlay,
+.containerbio:hover .overlay-bios, .overlay, .overlaybios, .largerscreen2{display:none}
+.smallerscreen2, .tracks3, .medium{display:inherit;}
+.bios,
+.tracks3{border-radius:10% 15%;}
+.tracks3{color:#000;font-size:1.2em;font-weight:900;padding:4%;}
+#bandpicture{border-radius:5% 10%;height:500px;margin-left:14%;width:800px}
+img.album{height:350px;width:325px}
+img.bandmembers{height:250px;width:250px}
+nav{display:inline;margin:0 3% 0 0;width:14%}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address,
+#birthday,
+#city,
+#comments,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{font-size:1.5em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+.firstname,
+.lastname{width:16%}
+#comments{padding:.5% 0 2%}
+.birthday{width:18%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:10%}
+.emailpref{width:30%}
+.css,
+.html{font:1.6em}
+.address{width:20%}
+.city,
+.state{width:8%}
+.zip{width:15%}
+.comments{width:40%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
+@media only screen and (min-width:1326px) and (max-width:1509px){.agreement,
+.terms,
+.container:hover .overlay,
+.containerbio:hover .overlay-bios,
+.smallerscreen,
+.smallerscreen3,
+.smallest,
+.tracks2, .largerscreen2{display:none}
+.smallerscreen2, .tracks3, .medium{display:inherit}
+.bios,
+.tracks3{border-radius:10% 15%;}
+.tracks3{font-size:1.1em;font-weight:900;padding:4%}
+#bandpicture{border-radius:5% 10%;height:500px;margin-left:14%;width:800px}
+img.album{height:300px;width:300px}
+img.bandmembers{height:225px;width:225px}
+header{text-align:center;}
+.navig{margin:2% 0 2% 5%;width:90%;}
+li.navi{display:inline;font-size:3.5em;padding:5%;width:90%;}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address,
+#birthday,
+#city,
+#comments,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{font-size:1.1em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+.firstname,
+.lastname{width:20%}
+#comments{padding:.5% 0 2%}
+.birthday{width:22%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:14%}
+.emailpref{width:34%}
+.css,
+.html{font:1.6em}
+.address{width:24%}
+.city,
+.state{width:10%}
+.zip{width:15%}
+.comments{width:44%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
+@media only screen and (min-width:1238px) and (max-width:1325px){.agreement,
+.terms,
+nav{color:black;text-align:center}
+.container:hover .overlay,
+.containerbio:hover .overlay-bios,
+.smallerscreen,
+.smallerscreen3,
+.smallest,
+.tracks,
+.tracks2,
+.largerscreen2{display:none}
+.smallerscreen2, .tracks3, .medium{display:inherit}
+img.banner{height:139px;width:800px}
+.bios,
+.tracks3{border-radius:10% 15%;}
+.tracks3{font-size:1.1em;font-weight:900;padding:4%}
+#bandpicture{border-radius:5% 10%;height:500px;margin-left:14%;width:800px}
+img.album{height:275px;width:275px}
+img.bandmembers{height:200px;width:200px}
+nav{display:inline;margin:0 3% 0 0;width:15%}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address,
+#birthday,
+#city,
+#comments,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{font-size:1.1em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+.firstname,
+.lastname{width:24%}
+#comments{padding:.5% 0 2%}
+.birthday{width:26%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:18%}
+.emailpref{width:38%}
+.css,
+.html{font:1.6em}
+.address{width:28%}
+.city,
+.state{width:14%}
+.zip{width:20%}
+.comments{width:50%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
+@media only screen and (min-width:1000px) and (max-width:1237px){.agreement,
+.terms{text-align:center}
+#largerscreen2,
+.container:hover .overlay,
+.containerbio:hover .overlay-bios,
+.largerscreen2,
+.smallerscreen,
+.smallest,
+.tracks,
+.smallerscreen, .tracks2{display:none;visibility:hidden}
+.smallerscreen2,
+.tracks3,
+.medium{display:inherit}
+header{text-align:center;}
+.navig{margin:2% 0 2% 5%;width:90%;}
+li.navi{display:inline;font-size:2.5em;padding:5%;width:90%;}
+.bios,
+.smallerscreen3,
+.tracks3{border-radius:10% 15%;}
+img.banner{height:122px;width:700px}
+img.album{height:200px;width:200px}
+img.bandmembers{height:185px;width:185px}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address,
+#birthday,
+#city,
+#comments,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{font-size:1.1em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+.firstname,
+.lastname{width:24%}
+#comments{padding:.5% 0 2%}
+.birthday{width:26%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:18%}
+.emailpref{width:38%}
+.css,
+.html{font:1.6em}
+.address{width:28%}
+.city,
+.state{width:14%}
+.zip{width:20%}
+.comments{width:50%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
+@media only screen and (min-width:831px) and (max-width:999px){.agreement,
+.terms{text-align:center}
+#bandpicture,
+#largerscreen2,
+.container:hover .overlay,
+.containerbio:hover .overlay-bios,
+.largerscreen2,
+.smallerscreen,
+.smallest,
+.tracks{display:none;visibility:hidden}
+.smallerscreen2,
+.smallerscreen3,
+.medium,
+.tracks3{display:inherit}
+a,
+ul{display:inline}
+nav{margin:2% 0}
+#about-paragraph{border-radius:15%;font:1.4em;height:600px;padding:4%;width:600px}
+header{text-align:center;}
+.navig{margin:2% 0 2% 5%;width:90%;}
+li.navi{display:inline;font-size:2em;padding:5%;width:90%;}
+.bios,
+.smallerscreen3,
+.tracks3{border-radius:10% 15%;}
+img.banner{height:122px;width:700px}
+img.album{height:180px;width:180px}
+img.bandmembers{border-radius:50%;height:150px;width:150px}
+h2{font-size:.9em}
+.tracks3{padding:5%;width:90%}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address,
+#birthday,
+#city,
+#comments,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{font-size:1.1em;width:80%}
+.birthday,
+.firstname,
+.lastname{width:30%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+#comments{padding:.5% 0 2%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:22%}
+.emailpref{width:42%}
+.css,
+.html{font:1.6em}
+.address{width:32%}
+.city,
+.state{width:18%}
+.zip{width:24%}
+.comments{width:54%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
+@media only screen and (min-width:501px) and (max-width:830px){.agreement,
+.terms{text-align:center}
+#bandpicture,
+#largerscreen2,
+.container:hover .overlay,
+.containerbio:hover .overlay-bios,
+.form1,
+.largerscreen2,
+.largerscreen4,
+.smallerscreen,
+.tracks,
+.medium{display:none;visibility:hidden}
+#about-paragraph{border-radius:15%;font:1.4em;height:100%;padding:4%;width:75%}
+.form2,
+.smallest,
+.tracks2{display:inherit}
+header{text-align:center;}
+.navig{margin:2% 0 2% 5%;width:90%;}
+li.navi{display:inline;font-size:2em;padding:5%;width:98%;}
+form{margin:4%}
+button,
+h2,
+ol,
+p{}
+h2,
+ol,
+ol li,
+p{margin:4%;padding:2%}
+.bandmembers{border-radius:50%}
+img.banner{height:122px;width:700px}
+img.album{height:200px;width:200px}
+img.bandmembers{height:185px;width:185px}
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address2,
+#birthday2,
+#city2,
+#comments2,
+#email2,
+#firstname2,
+#lastname2,
+#state2,
+#zipcode2{font-size:1.1em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+.firstname,
+.lastname{width:24%}
+#comments{padding:.5% 0 2%}
+.birthday{width:26%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:18%}
+.emailpref{width:38%}
+.css,
+.html{font:1.6em}
+.address{width:28%}
+.city,
+.state{width:14%}
+.zip{width:20%}
+.comments,
+button{width:50%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
+@media only screen and (min-width:0px) and (max-width:500px){body{font-size:.8em;}
+header{text-align:left;}
+.navig{margin:3% 0 2% 0;width:100%;}
+li.navi{display:inline;font-size:.9em;padding:4%;width:100%;}
+.agreement,
+.terms{text-align:center}
+#bandpicture,
+#largerscreen2,
+.container:hover .overlay,
+.containerbio:hover .overlay-bios,
+.form1,
+.largerscreen2,
+.largerscreen4,
+.smallerscreen,
+.tracks,
+.medium{display:none;visibility:hidden}
+#about{width:50%;}
+#about-paragraph{border-radius:15%;font:1.4em;height:100%;margin:0 50% 0 1%;padding:3%;width:50%;}
+#bio{width:50%;}
+#albums{width:50%;}
+#updatesignup{width:50%;}
+footer{width:50%;}
+.form2,
+.smallest,
+.tracks2{display:inherit}
+form{margin:4%}
+button,
+h2,
+ol,
+p{}
+.biossmall{margin:2%;padding:2%;width:40%;}
+.workalready{padding:1% 0 2% 0;width:25%;}
+ol,
+ol li{padding:2% 2% 1% 10%;}
+.tracks2{width:30%;}
+.bandmembers{border-radius:50%}
+img.banner{height:122px;width:700px}
+img.album{height:150px;width:150px}
+img.bandmembers{height:150px;width:150px}
+#banner{width:50%;}
+img.banner{height:52px;margin:auto;width:300px;}
+.smallerscreen
+.address,
+.birthday,
+.city,
+.comments,
+.email,
+.emailpref,
+.firstname,
+.lastname,
+.state,
+.terms,
+.zip{padding:1%}
+.css,
+.html,
+.readandagree{padding:.5%}
+#address2,
+#birthday2,
+#city2,
+#comments2,
+#email2,
+#firstname2,
+#lastname2,
+#state2,
+#zipcode2{font-size:1.1em;width:80%}
+#address,
+#birthday,
+#city,
+#email,
+#firstname,
+#lastname,
+#state,
+#zipcode{padding:.5% 0}
+.firstname,
+.lastname{width:24%}
+#comments{padding:.5% 0 2%}
+.birthday{width:26%}
+#dob-month,
+#dob-year{width:27%}
+#dob-day{width:25%}
+.email{width:18%}
+.emailpref{width:38%}
+.css,
+.html{font:1.6em}
+.address{width:28%}
+.city,
+.state{width:14%}
+.zip{width:20%}
+.comments,
+button{width:50%}
+.terms{margin:0 0 2%}
+.agreement{display:block;margin-bottom:2%}
+}
